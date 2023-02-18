@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Письмо</title>
+</head>
+<body>
+<h1>Письмо Санте</h1>
+<p><b>Дорогой друг, не стесняйся и расскажи Санте о том, кто ты и что желаешь получить в подарок на Рождество.</b></p>
+<form action="greetings.html">
+
+    <input type="text" placeholder="Логин" id="login" name="login" required>
+    <br><br>
+    <input type="text" placeholder="Пароль" id="password" name="password" required>
+    <br><br>
+    <input type="text" placeholder="Имя" id="name" name="name" required>
+    <br><br>
+    <p> Пол: </p>
+    <input type="radio" id="boy" name="boy">
+    <label for="boy">Мальчик</label>
+    <input type="radio" id="girl" name="boy">
+    <label for="boy">Девочка</label>
+    <br><br>
+    <p>Дата рождения: <input type="date"></p>
+    <br>
+
+    <p>Выбери свой город:
+    <select>
+        <option>Москва</option>
+        <option>Санкт-Петербург</option>
+        <option>Екатеринбург</option>
+        <option>Новосибирск</option>
+        <option>Казань</option>
+        <option>Нижний Новгород</option>
+        <option>Самара</option>
+        <option>Ростов-на-Дону</option>
+        <option>Минск</option>
+        <option>Севастополь</option>
+        <option>Другой</option>
+    </select>
+        <input type="text" placeholder="Напиши другой город" id="another_city" name="another_city">
+    </p><br><br>
+
+    <p>Выбери подарок и цвет своей новой игрушки:
+    <select>
+        <option>Самокат</option>
+        <option>Конструктор</option>
+        <option>Подарочный набор</option>
+        <option>Плюшевый мишка</option>
+        <option>Сюрприз</option>
+    </select>
+    </p>
+    <input type="radio" id="white" name="white">
+    <label for="white">Белый</label>
+    <input type="color" value="#FFFFFF">
+    <br>
+    <input type="radio" id="lime" name="white">
+    <label for="white">Салатовый</label>
+    <input type="color" value="#00FF00">
+    <br>
+    <input type="radio" id="blue" name="white">
+    <label for="white">Синий</label>
+    <input type="color" value="#0000FF">
+    <br>
+    <input type="radio" id="pink" name="white">
+    <label for="white">Розовый</label>
+    <input type="color" value="#FF1493">
+    <br>
+    <input type="radio" id="orange" name="white">
+    <label for="white">Оранжевый</label>
+    <input type="color" value="#FF4500">
+    <br>
+
+    <p> Ты был хорошим ребенком? </p>
+    <input type="radio" id="yes" name="yes">
+    <label for="yes">да</label>
+    <input type="radio" id="no" name="yes">
+    <label for="yes">нет</label>
+    <br><br>
+
+    <button type="submit">Отправить письмо Санте</button>
+</form>
+
+</body>
+</html>
